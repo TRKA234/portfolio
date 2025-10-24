@@ -29,7 +29,7 @@ function App() {
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1a6LOSoQLiPCDOtYJQAAJjV9A8yDjik1U/view?usp=sharing"
               className="bg-violet-700 p-4 rounded-2xl hover:bg-violet-600"
             >
               Download CV <i className="ri-download-fill ri-lg"></i>
@@ -112,8 +112,8 @@ function App() {
             datao-aos-delay="300"
             data-aos-once="true"
           >
-            Berikut ini beberap tools yang saya pakai untuk pembuatan website, mobile app
-            ataupun design :
+            Berikut ini beberap tools yang saya pakai untuk pembuatan website,
+            mobile app ataupun design :
           </p>
 
           <div className="tool-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
