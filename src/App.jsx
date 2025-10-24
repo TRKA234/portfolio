@@ -13,18 +13,19 @@ function App() {
               className="w-10 rounded-md"
               loading="lazy"
             />
-            <q>Kode yang indah lahir dari ketekunan.😅</q>
+            <q>
+              <em>Mengubah ide kompleks menjadi kode yang simpel. 💻</em>
+            </q>
           </div>
           <h1 className="text-5xl/tight font-bold mb-6">
             Hi, Saya Kardiko Anando
           </h1>
           <p className="text-base/loose mb-6 opacity-50">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi,
-            aliquid blanditiis velit repellendus dolor, quidem eaque quam natus
-            ducimus cupiditate accusamus eligendi? Exercitationem omnis quod
-            itaque ea magnam ut quasi sapiente mollitia accusantium quidem,
-            natus debitis veniam eos quaerat ad vitae amet reprehenderit in
-            dicta et adipisci tempore? Asperiores, porro.
+            Saya seorang Web & Mobile Developer dengan fokus pada Front-End,
+            Back-End Serta Full-Stack, bersemangat membangun antarmuka pengguna
+            yang bersih, responsif, dan fungsional. Saya senang mengubah ide-ide
+            kreatif menjadi solusi digital yang nyata dan berdampak positif bagi
+            pengguna.
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
@@ -44,7 +45,7 @@ function App() {
         <img
           src={DataImage.HeroImage}
           alt="Hero Image"
-          className="w-[500px] md:ml-auto animate__animated animate__fadeInUp animate__delay-4s"
+          className="w-[400px] md:ml-auto animate__animated animate__fadeInUp animate__delay-4s rounded-4xl"
           loading="lazy"
         />
       </div>
@@ -64,11 +65,11 @@ function App() {
             loading="lazy"
           />
           <p className="text-base/loose mb-10">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Consequuntur officia officiis perspiciatis suscipit amet dignissimos
-            laboriosam quaerat fugiat corrupti assumenda. Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. A enim laborum nam soluta.
-            Quibusdam officiis blanditiis a officia asperiores natus.
+            Dengan pengalaman 4 tahun di dunia pengembangan web, saya telah
+            terlibat dalam berbagai proyek, mulai dari landing page sederhana
+            hingga aplikasi web yang kompleks. Saya selalu antusias untuk
+            belajar teknologi baru dan menerapkan praktik terbaik untuk
+            menghasilkan kode yang efisien, mudah dirawat, dan skalabel.
           </p>
           <div className="flex items-center justify-between">
             <img
@@ -80,15 +81,15 @@ function App() {
             <div className="flex items-center gap-6">
               <div>
                 <h1 className="text-4xl mb-1">
-                  45<span className=" text-violet-500"></span>
+                  45<span className=" text-violet-500">+</span>
                 </h1>
                 <p>Proyek Selesai</p>
               </div>
               <div>
                 <h1 className="text-4xl mb-1">
-                  4<span className=" text-violet-500"></span>
+                  4<span className=" text-violet-500">+</span>
                 </h1>
-                <p>tahun pengalaman</p>
+                <p>Tahun pengalaman</p>
               </div>
             </div>
           </div>
@@ -111,8 +112,8 @@ function App() {
             datao-aos-delay="300"
             data-aos-once="true"
           >
-            Berikut ini beberap tools yang saya pakai untuk pembuatan website
-            ataupun design
+            Berikut ini beberap tools yang saya pakai untuk pembuatan website, mobile app
+            ataupun design :
           </p>
 
           <div className="tool-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
