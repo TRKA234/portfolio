@@ -45,7 +45,7 @@ function App() {
         <img
           src={DataImage.HeroImage}
           alt="Hero Image"
-          className="w-[400px] md:ml-auto animate__animated animate__fadeInUp animate__delay-4s rounded-4xl"
+          className="w-[300px] md:ml-auto animate__animated animate__fadeInUp animate__delay-4s rounded-4xl"
           loading="lazy"
         />
       </div>
