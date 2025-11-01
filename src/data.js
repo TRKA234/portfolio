@@ -115,12 +115,14 @@ export const listTools = [
 ];
 
 //import Proyek1 from "/assets/proyek/proyek1.webp";
-import Proyek2 from "/assets/proyek/proyek2.webp";
-import Proyek3 from "/assets/proyek/proyek3.webp";
-import Proyek4 from "/assets/proyek/proyek4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
-import Proyek6 from "/assets/proyek/proyek6.webp";
+// import Proyek2 from "/assets/proyek/proyek2.webp";
+// import Proyek3 from "/assets/proyek/proyek3.webp";
+// import Proyek4 from "/assets/proyek/proyek4.webp";
+// import Proyek5 from "/assets/proyek/proyek5.webp";
+// import Proyek6 from "/assets/proyek/proyek6.webp";
 import Proyek1 from "/assets/proyek/web-portfolio.png";
+import Proyek2 from "/assets/proyek/web-sanggarumbuikmudo.png";
+import Proyek3 from "/assets/proyek/smartedu_app.png";
 
 export const listProyek = [
   {
@@ -130,15 +132,26 @@ export const listProyek = [
     desk: "Website portfolio saya yang berisi informasi tentang saya, proyek-proyek yang telah saya kerjakan, dan kontak saya.",
     tools: ["react", "tailwind", "aos", "vite"],
     dad: "200",
+    link: "https://kardiko.vercel.app",
   },
-  // {
-  //   id: 2,
-  //   gambar: Proyek2,
-  //   nama: "Company Profile",
-  //   desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-  //   tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
-  //   dad: "300",
-  // },
+  {
+    id: 2,
+    gambar: Proyek2,
+    nama: "Website Sanggar Umbuik Mudo",
+    desk: "Website sanggar umbuik mudo yang berisi informasi tentang sanggar, event-event yang telah diadakan, dan kontak sanggar.",
+    tools: ["HTML", "CSS", "Javascript", "Bootstrap", "AOS", "Laravel"],
+    dad: "300",
+    link: "https://github.com/TRKA234/sanggar_umbuik_mudo.git",
+  },
+  {
+    id: 3,
+    gambar: Proyek3,
+    nama: "Smart Edu High School",
+    desk: "Mobile App smart edu high school yang berisi informasi tentang sekolah, event-event yang telah diadakan, dan kontak sekolah.",
+    tools: ["Flutter", "Dart", "Firebase", "laravel", "laragon"],
+    dad: "400",
+    link: "https://github.com/TRKA234/smartedu_high_school",
+  },
   // {
   //   id: 3,
   //   gambar: Proyek3,
